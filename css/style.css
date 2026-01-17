@@ -1382,6 +1382,14 @@ h3 {
   z-index: 0;
 }
 
+/* Desktop & Laptop only */
+@media (min-width: 992px) {
+  .slider_area {
+    height: 100vh !important;
+  }
+}
+
+
 /* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider {
   background-size: 100% 100%;
